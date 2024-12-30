@@ -48,10 +48,9 @@
 
 #define MOTOR1_PIN           PB0
 #define MOTOR2_PIN           PB1
-#define MOTOR3_PIN           PA0
-#define MOTOR4_PIN           PA1
-#define MOTOR5_PIN           PA2
-#define MOTOR6_PIN           PA3
+#define MOTOR3_PIN           PA3
+#define MOTOR4_PIN           PA2
+#define LED_STRIP_PIN        PA1
 
 #define UART1_TX_PIN            PA9
 #define UART1_RX_PIN            PA10
@@ -90,6 +89,8 @@
 #define SPI3_SDI_PIN            PC11
 #define SPI3_SDO_PIN             PC12
 
+#define LED_STRIP_PIN        PA8
+
 /* CS1/CS2 pads for SPI3 connection:
  *
  * CS1 PD4
@@ -100,14 +101,14 @@
     TIMER_PIN_MAP( 0, PB0 , 2,  0) \
     TIMER_PIN_MAP( 1, PB1 , 2,  0) \
     TIMER_PIN_MAP( 2, PA0 , 2,  0) \
-    TIMER_PIN_MAP( 3, PA1 , 2,  0) \
+    TIMER_PIN_MAP( 3, PA1 , 4,  0) \
     TIMER_PIN_MAP( 4, PA2 , 2,  0) \
     TIMER_PIN_MAP( 5, PA3 , 2,  0) \
-    TIMER_PIN_MAP( 8, PE5 , 1, -1) \
-    TIMER_PIN_MAP( 9, PE6 , 1, -1) \
+    TIMER_PIN_MAP( 8, PE5 , 4, -1) \
+    TIMER_PIN_MAP( 9, PE6 , 4, -1) \
     TIMER_PIN_MAP(10, PA8 , 1,  0) \
     TIMER_PIN_MAP(11, PA15, 1, -1) \
-    TIMER_PIN_MAP(12, PC7 , 2, -1) 
+    TIMER_PIN_MAP(12, PC7 , 3, -1) 
 
 
 
