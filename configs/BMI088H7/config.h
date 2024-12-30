@@ -73,6 +73,7 @@
 #define GYRO_1_EXTI_PIN         BMI088_INT_G_PIN
 #define GYRO_1_CS_PIN           BMI088_CS_G_PIN
 #define GYRO_1_ACC_CS_PIN       BMI088_CS_A_PIN
+#define GYRO_1_ALIGN            CW180_DEG
 
 #define SPI1_SCK_PIN         PA5
 #define SPI1_SDI_PIN         PA6
